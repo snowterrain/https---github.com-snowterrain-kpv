@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.telugulive"
+version="2.0.0"
+name="snowterrrain"
+provider-name="KPV">
+<requires>
+ <import addon="xbmc.python" version="2.14.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Telugu Live</summary>
+  <description lang="en">Telugu Live Channels.</description>
+  <disclaimer lang="en">Not responsible for the content</disclaimer>
+</extension>
+</addon>
